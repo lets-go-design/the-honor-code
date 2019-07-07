@@ -16,8 +16,8 @@ export default [{
     component: Home,
     navTheme: navThemes.home,
     meta: {
-      title: 'Home',
-      description: 'React Sprout v2'
+      title: 'The Honor Code',
+      description: 'A media & production studio focused on developing, creating, & sharing impactful stories.'
     }
   }, {
     path: '*',
