@@ -17,7 +17,7 @@ export default [{
     navTheme: navThemes.home,
     meta: {
       title: 'The Honor Code',
-      description: 'A media & production studio focused on developing, creating, & sharing impactful stories.'
+      description: 'A media & production studio focused on sharing impactful stories.'
     }
   }, {
     path: '*',
