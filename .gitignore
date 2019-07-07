@@ -29,4 +29,5 @@ dist/
 
 .DS_Store
 
+.firebase
 *.code-workspace
