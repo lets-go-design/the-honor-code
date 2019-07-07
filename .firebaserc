@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "dev": "the-honor-code-dev",
+    "prod": "the-honor-code-prod"
+  }
+}

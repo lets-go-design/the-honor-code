@@ -9,22 +9,25 @@ export const Button = styled.div`
   align-items: center;
   box-sizing: border-box;
   transition: background 275ms ease;
-  height: 55px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: ${Colors.white};
-  background: ${Colors.peach};
-  border-radius: 36px;
-  min-width: 268px;
+  background: ${Colors.black};
+  border-radius: 55px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  opacity: .5;
+  transition: all 275ms ease;
 
   &:hover {
-    background: ${Colors.peachMedium};
+    background: ${Colors.backgroundDark};
+    transform: scale(1);
+    opacity: 1;
   }
 
   &:active {
-    background: ${Colors.peach};
+    background: ${Colors.brandLight};
   }
 
   ${props => props.disabled && css`
@@ -69,7 +72,7 @@ export const ButtonText = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   width: 100%;
 

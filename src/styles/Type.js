@@ -159,7 +159,6 @@ export const GlobalStyle = createGlobalStyle`
     margin-bottom: 38px;
   }
   a {
-    color: ${Colors.brand};
     text-decoration: none;
     transition: color .3s ease;
 
